@@ -6,15 +6,7 @@
 class MenuBar : public wxMenuBar
 {
 public:
-    MenuBar(wxFrame *frame);
-private:
-    void onNew(wxCommandEvent& event);
-    void onOpen(wxCommandEvent& event);
-    void onSave(wxCommandEvent& event);
-    void onSaveAs(wxCommandEvent& event);
-    void onQuit(wxCommandEvent& event);
-    wxFrame *m_frame;
-    DECLARE_EVENT_TABLE()
+    MenuBar();
 };
 
 #endif
